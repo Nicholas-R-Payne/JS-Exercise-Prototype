@@ -126,10 +126,10 @@ function Baby() {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding - If none of the other rules apply, 'this' will return the window, the global object in node, or undefined in strict mode.
+  2. Implicit Binding - Applies to objects with methods and when the function is invoked, look to the left of the dot, that's what 'this' refers to.
+  3. New Binding - Whenever we use a constructor function, 'this' refers to the specific instance of the object that is created and returned by the constructor function.
+  4. Explicit Binding - Whenever we use JavaScript's call or apply method, 'this' is explicitly defined.
 */
 
 
